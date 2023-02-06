@@ -1,0 +1,135 @@
+.heading{
+    margin-top: -8px;
+    text-align:center;
+    border: 1px solid black;
+    text-decoration: underline;
+    font-style: italic;
+}
+.O1{
+    background-image: linear-gradient( 90deg, red,green,yellow);
+}
+
+.heading1{
+    font-size: small;
+}
+
+.list{
+    border: 2px solid red;
+    width: 700px;
+    margin-left: 250px;
+    background-color: cadetblue;
+    border-radius: 15px;
+    font-style: italic;
+}
+.l1{
+    position: relative;
+    margin-left: 250px;
+    padding-left: 100px;
+}
+
+.container{
+    border: 2px solid green;
+    border-radius: 5px;
+    background-color:aquamarine;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    font-style: italic;
+    
+}
+
+.box{
+    border: 2px solid green;
+    width:410px;
+    border-radius: 5px;
+    background-color: aqua;
+    
+}
+
+.heading2{
+    text-align: center;
+    border: 1px solid black;
+    text-decoration: underline;
+    margin-top: 15px;
+    font-style: italic;
+}
+
+.O2{
+    background-image: linear-gradient( 90deg, red,orange,yellow, red);
+}
+
+.container1{
+    display:flex;
+    border: 2px solid black;
+    margin-top: 15px;
+   padding: 70px;
+   justify-content: space-evenly;
+   font-style: italic;
+}
+
+.C1{
+    border: 2px solid red;
+    text-decoration: underline;
+    text-align: center;
+    height: 110px; width: 150px;
+    color: brown;
+    line-height: 30px;
+    background-color: yellow;
+}
+.O3{
+    background-image: radial-gradient(blue 50%, green);
+}
+
+.container2{
+    display: grid;
+    grid-template-columns: auto auto auto auto auto auto auto;
+    margin-top: 15px;
+    gap: 15px;
+    border: 2px solid black;
+}
+.g{
+    border: 1px solid black;
+    font-size: larger;
+    color: white;
+    font-style: italic;
+}
+.g1{
+    grid-column-end:span 7;
+    text-align: center;
+    padding-bottom: 10px;
+    background-color: red;
+}
+
+.g2{
+    background-color: lightgreen;
+}
+
+.g3{
+    grid-column-end:span 2;
+    background-color: cornflowerblue;
+}
+
+
+.g4{
+    grid-column-end:span 2;
+    background-color: blue; 
+}
+
+
+.g5{
+    grid-column-end:span 5;
+    background-color: darkorange;
+}
+
+.g6{
+    grid-column-end:span 2;
+    margin-top: -58px;
+    background-color: black;
+}
+
+.g7{
+    grid-column-end:span 7;
+    text-align: center;
+    background-color:darkturquoise;
+    color:black;
+}
